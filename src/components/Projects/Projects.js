@@ -77,9 +77,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="PG Finder Website"
-              description="Developed during my Internshala training, this web platform enables users to search for PG accommodations across cities. Built with HTML, CSS, and JavaScript for a responsive frontend, and PHP with MySQL for robust backend and database management, the project highlights my full-stack development skills and efficient integration of technologies."
-              ghLink="https://github.com/hritdubey2003/PG_Life"
+              title="UBER Clone"
+              description="The Uber Clone project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React, Node.js). It features user and captain registration, login, profile management, and role-based workflows. The application supports secure authentication with JSON Web Tokens (JWT) and bcrypt for password hashing. The backend API is structured with controllers, models, and services, while the frontend leverages React for building dynamic user interfaces. This project mimics the functionality of the Uber platform, offering an intuitive interface for both users and captains."
+              ghLink="https://github.com/hritdubey2003/UC"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
