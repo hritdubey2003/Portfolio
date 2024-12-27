@@ -21,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Airbnb Clone"
+              description="This project is a full-stack clone of the Airbnb platform, built using the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a functional replica of the core features of Airbnb, including property listings, user authentication, booking functionality, and profile management."
+              ghLink="https://github.com/hritdubey2003/AIRBNB_CLONE"
+              demoLink="https://airbnb-clone-nc7p.vercel.app/"
+              //       <--------Please include a demo link here 
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -70,17 +82,6 @@ function Projects() {
               description="Engineered pub-sub architecture using redis for multi-server architecture impolementation in a group project in our college. Worked along with my buddy Arya Rai over this implementation!"
               ghLink="https://github.com/hritdubey2003/socket_upscaling"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="UBER Clone"
-              description="The Uber Clone project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React, Node.js). It features user and captain registration, login, profile management, and role-based workflows. The application supports secure authentication with JSON Web Tokens (JWT) and bcrypt for password hashing. The backend API is structured with controllers, models, and services, while the frontend leverages React for building dynamic user interfaces. This project mimics the functionality of the Uber platform, offering an intuitive interface for both users and captains."
-              ghLink="https://github.com/hritdubey2003/UC"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
